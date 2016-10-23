@@ -11,7 +11,7 @@ splited = text.split('月');
 var month = splited[0];
 text = splited[1];
 
-splited = text.split('日');
+splited = text.split('日(');
 var day = splited[0];
 text = splited[1];
 

@@ -30,7 +30,7 @@
   // Date object to string for google calendar
   var dateToString = function(date) {
     return date.getFullYear() +
-      ('00' + date.getMonth()).substr(-2) +
+      ('00' + (date.getMonth()+1)).substr(-2) +
       ('00' + date.getDate()).substr(-2) +
       'T' +
       ('00' + date.getHours()).substr(-2) +
